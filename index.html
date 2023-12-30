@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="images/favicon/7972902.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="main-login" class="vh-100 py-5">
+      <div
+        class="form w-75 m-auto shadow-lg rounded-5 px-3 pt-5 bg-info bg-opacity-10"
+      >
+        <h2 class="text-center">Smart Login System</h2>
+        <div class="mt-4">
+          <label for="login-email" class="form-label">Email address : </label>
+          <input
+            type="email"
+            class="form-control"
+            id="login-email"
+            aria-describedby="emailHelp"
+            placeholder="Enter Your Email"
+          />
+          <label for="login-password" class="form-label mt-2"
+            >Password :
+          </label>
+          <input
+            type="password"
+            class="form-control"
+            id="login-password"
+            aria-describedby="emailHelp"
+            placeholder="Enter Your Password"
+          />
+          <button
+            id="login-btn"
+            type="button"
+            class="btn btn-primary mt-5 text-center w-100"
+          >
+            Login
+          </button>
+          <p class="text-center py-3">
+            Don’t have an account? <a href="singnup.html" class="">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "ubnutu";
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+:root {
+  --trans: 400ms;
+  --trans2: 700ms;
+  --trans3: 900ms;
+  --fs-lg: 3rem;
+  --fs-lg2: 2rem;
+  --fs-m: 1.5rem;
+  --fs-s: 1.1rem;
+  --heading-font: "Pacifico";
+  --main-font: "ubnutu";
+  --text-color: #ffd1e3;
+  --text-color-sec: #e6d9d9;
+  --bg-color: #392467;
+  --sec-color: #5d3587;
+  --border-color: #a367b1;
+  --border-color-hover: rgba(163, 103, 177, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-size: (var(--fs-s));
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: var(--fs-lg);
+}
+
+::selection {
+  color: var(--main-color);
+  background: var(--border-color);
+}
+
+#main-login,
+#main-signup,
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0% 100%),
+    url(../images/159Z_2107.w026.n002.628B.p1.628.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
